@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'AlphaMacAOE';
+  src: url("fonts/AlphaMacAOE.ttf"); }
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url("fonts/BebasNeue.otf"); }
+@font-face {
+  font-family: 'Odin Rounded';
+  src: url("fonts/Odin Rounded - Bold.otf"); }
+#playlist, #addform {
+  max-height: 100%;
+  background: white;
+  overflow-y: auto; }
+
+#playlist {
+  overflow-y: auto; }
+  #playlist table {
+    text-align: center; }
+    #playlist table thead {
+      background: #272EC0;
+      color: white; }
+      #playlist table thead th {
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding: 10px; }
+    #playlist table tbody td {
+      font-size: 1.2em; }
+    #playlist table tbody button {
+      color: inherit; }
+    #playlist table tbody tr:hover {
+      color: white;
+      background: #5CBEE7; }
+
+#addform {
+  padding: 10px; }
+  #addform h1 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 10px 5px; }
+  #addform article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 25px 0px; }
+    #addform article button {
+      padding: 15px 25px;
+      margin-left: 0;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0; }
+    #addform article input {
+      flex: 1;
+      margin-left: 5px;
+      margin-right: 0;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0; }
+  #addform form {
+    display: flex;
+    flex-direction: column; }
+  #addform input {
+    border: 2px solid #5CBEE7;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    background: none;
+    color: black;
+    transition: 0.4s; }
+  #addform input:hover {
+    border: 2px solid #272EC0; }
+  #addform fieldset {
+    border: none;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between; }
+  #addform button {
+    background: #5CBEE7;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    transition: 0.4s; }
+  #addform button:hover {
+    background: #272EC0; }
+
+#result iframe {
+  max-width: 100%; }
+
+/*# sourceMappingURL=backoffice.css.map */

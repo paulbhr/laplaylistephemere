@@ -1,0 +1,6 @@
+controller/config.php
+*/.DS_Store
+view/.sass-cache/
+view/*.css.map
+view/*.scss
+.DS_Store
