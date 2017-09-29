@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'AlphaMacAOE';
-  src: url("fonts/AlphaMacAOE.ttf"); }
+  src: url("../fonts/AlphaMacAOE.ttf"); }
 @font-face {
   font-family: 'Bebas Neue';
-  src: url("fonts/BebasNeue.otf"); }
+  src: url("../fonts/BebasNeue.otf"); }
 @font-face {
   font-family: 'Odin Rounded';
-  src: url("fonts/Odin Rounded - Bold.otf"); }
+  src: url("../fonts/Odin Rounded - Bold.otf"); }
 * {
   margin: 0;
   padding: 0;
@@ -54,7 +54,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background: url(gal/background.svg) no-repeat center center;
+  background: url(../gal/background.svg) no-repeat center center;
   background-size: 100%; }
 
 .row {
@@ -163,6 +163,8 @@ button:hover {
       cursor: pointer; }
     #history table i:hover {
       color: #1940bc; }
+    #history table button {
+      padding: 0; }
 
 .fa-pause {
   transform: translateX(-15%);

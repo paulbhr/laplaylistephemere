@@ -1,0 +1,48 @@
+//VAR
+@font-face {
+font-family: 'AlphaMacAOE';
+src: url('../fonts/AlphaMacAOE.ttf');
+}
+
+@font-face {
+font-family: 'Bebas Neue';
+src: url('../fonts/BebasNeue.otf');
+}
+
+@font-face {
+font-family: 'Odin Rounded';
+src: url('../fonts/Odin Rounded - Bold.otf');
+}
+
+$white: white;
+$black: black;
+$dblue: #1940bc;
+$lblue: #76c0e5;
+
+//GEN
+
+* {margin: 0; padding: 0; box-sizing: border-box; cursor: default;}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  font-family: 'Odin Rounded';
+}
+
+#player iframe {
+   display: none;
+ }
+
+button {
+  background: none;
+  border: none;
+  color: $black;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 25px;
+}
+button:hover {
+  color: $dblue;
+}

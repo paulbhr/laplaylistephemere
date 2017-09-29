@@ -21,7 +21,7 @@
     <?php if($_SESSION["adminstatus"] == 1) { ?>
     <button ng-click='playlist=!playlist'><i class="fa fa-list-ul" aria-hidden="true"></i></button>
     <button ng-click='addform=!addform'><i class="fa fa-plus" aria-hidden="true"></i></button>
-  <?php }; ?>
+    <?php }; ?>
   </section>
   <section id='links'>
     <a ng-click='about=!about' class='white'><i class="fa fa-question-circle" aria-hidden="true"></i></a>

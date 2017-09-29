@@ -3,7 +3,7 @@
 //CHECKING PLAYER STATUS
 if (!isset($_SESSION['n'])) {
   //LOADING FIRST TRACK
-  $_SESSION['n'] = array_rand($usersongs, 1);
+  $_SESSION['n'] = 2;
 }
 if (isset($_SESSION['autoplay'])) {
   $autoplay = $_SESSION['autoplay'];

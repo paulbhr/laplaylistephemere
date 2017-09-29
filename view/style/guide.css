@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'AlphaMacAOE';
-  src: url("fonts/AlphaMacAOE.ttf"); }
+  src: url("../fonts/AlphaMacAOE.ttf"); }
 @font-face {
   font-family: 'Bebas Neue';
-  src: url("fonts/BebasNeue.otf"); }
+  src: url("../fonts/BebasNeue.otf"); }
 @font-face {
   font-family: 'Odin Rounded';
-  src: url("fonts/Odin Rounded - Bold.otf"); }
+  src: url("../fonts/Odin Rounded - Bold.otf"); }
 #modal {
   order: 2;
   max-width: 40%;
@@ -30,5 +30,11 @@
     font-size: 1.2em;
     text-indent: 1.2em;
     margin: 15px 0px; }
+  #modal a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none; }
+  #modal a:hover {
+    text-decoration: underline; }
 
 /*# sourceMappingURL=guide.css.map */
